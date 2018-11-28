@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lh": "lighthouse-ci"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fangwentian/lighthouse/issues"
   },
-  "homepage": "https://github.com/fangwentian/lighthouse#readme"
+  "homepage": "https://github.com/fangwentian/lighthouse#readme",
+  "devDependencies": {
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
+  }
 }
